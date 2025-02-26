@@ -44,7 +44,7 @@ Evaluation
 After training, the model's performance was evaluated on the test dataset to see how well it generalizes to unseen data.
 
 # Visualizations
-1. Accuracy Plot
+1. Accuracy Plot :
 The Accuracy plot shows the training accuracy and validation accuracy over the course of training. Ideally, both accuracy values should increase and eventually stabilize, indicating that the model is learning well and is able to generalize to unseen data. A significant gap between the training and validation accuracy could indicate overfitting, where the model learns to perform very well on the training data but struggles with new, unseen data.
 
 In our case, the training and validation accuracy have a similar trend, which suggests that the model is learning generalizable features. By the final epoch, the accuracy reaches around 85%, indicating decent performance.
@@ -54,13 +54,13 @@ The Loss plot shows the training loss and validation loss over time. As training
 
 Our loss plot shows that both training and validation loss decreased steadily, with the final validation loss around 1.34. This suggests the model performed well, although there is potential for further improvement in the future.
 
-2. Model Performance (Accuracy and Loss)
+2. Model Performance (Accuracy and Loss) :
 After training, the model was evaluated on the test set, and the results were:
 - Test Accuracy: The test accuracy represents the percentage of images that were correctly classified by the model from the test dataset. In this case, the test accuracy was 85.26%.
 - Test Loss: The test loss is a measure of the model’s error on the test data. A lower value indicates better performance. Our model achieved a test loss of 1.34, which is relatively low.
 These results indicate that the model is performing well on unseen data, correctly classifying around 85% of chest X-ray images.
 
-3. Confusion Matrix and Classification Report
+3. Confusion Matrix and Classification Report :
 For a more detailed understanding of the model's performance, especially on detecting Pneumonia, the Confusion Matrix and Classification Report provide valuable insights into how well the model performs on each class.
 
 Confusion Matrix: This matrix shows the number of true positives, true negatives, false positives, and false negatives. This helps evaluate whether the model is confused between the two classes, Normal and Pneumonia.
